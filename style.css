@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.container{
+  background: #ECF4FF;
+  margin: 45px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  color: #1C1C1C;
+  padding: 35px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil{
+  display: flex;
+}
+
+.perfil-foto{
+  border-radius: 460px;
+  max-height: 120px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button{
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  margin: 30px;
+  border-radius: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.projetos ul1 {
+  list-style: none;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.projetos ul {
+  list-style: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.projetos p {
+  margin: 20px;
+}
+
+.itens {
+  margin: 30px;
+  width: 100%;
+  max-width: 70em;
+  margin-left: 10px;
+}
+
+.container p2 {
+  /*display: block;
+  float: right;
+  margin-right: 10px;*/
+  display: flex;
+  justify-content: right;
+  
+}
+
+.itens a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375886 27.26%, #6887A9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  background: #1C1C1C;
+  color: #F6F6F6;
+  border: 2px solid #F7F7F7;
+}
